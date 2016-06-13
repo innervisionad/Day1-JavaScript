@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+</head>    
+    
+<body>
+    
+<span id="demo"></span>
+    
+<h1>JavaScript - Hello World</h1>
+
+    
+    
+<script>
+window.addEventListener('load',myfirst,false);
+
+function myfirst(){
+window.alert("Hello World using an Even Listener");
+document.getelementById("demo").innerHTML = "Hello World!";
+}
+</script>        
+        
+
+    
+</body>
+</html>
